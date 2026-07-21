@@ -6,9 +6,9 @@ The pipeline processes Databento XNAS MBP-10 data without resampling intialy
 
 ## Pipeline
 
-1. Download and convert MBP-10 data to daily Parquet files.
+1. Download and convert MBP-10 data to daily Parquet files ( 	dbn_to_parquet.py ) .
 2. Restrict observations to regular trading hours.
-3. Extract 170 tick-level features, including:
+3. Extract 170 tick-level features ( extract_tick_features.py , provided bc it didn't work lol ), including:
 
    * Bid-ask spread and microprice
    * Depth and order-count imbalance
