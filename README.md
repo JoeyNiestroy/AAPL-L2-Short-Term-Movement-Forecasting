@@ -2,7 +2,7 @@
 
 This project investigates whether tick level limit order book data can reliable predict the direction of Apple (`AAPL`) approximately one hour into the future.
 
-The pipeline processes Databento XNAS MBP-10 data without resampling intialy
+The pipeline processes Databento XNAS MBP-10 data without resampling. Code is mainly claude / chat slop, will be refactored if perfomance is promising
 
 ## Pipeline
 
