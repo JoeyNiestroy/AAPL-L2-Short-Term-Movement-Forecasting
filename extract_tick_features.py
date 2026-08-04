@@ -6,20 +6,6 @@ Extracts one feature row for every MBP-10 event.
 Each invocation processes exactly one Parquet file selected by its
 zero-based index in the sorted input directory.
 
-Examples
---------
-Process the first file:
-
-    python 02_extract_tick_features.py --index 0
-
-Process the tenth file:
-
-    python 02_extract_tick_features.py --index 9
-
-Under a Slurm array:
-
-    python 02_extract_tick_features.py \
-        --index "${SLURM_ARRAY_TASK_ID}"
 """
 
 import argparse
